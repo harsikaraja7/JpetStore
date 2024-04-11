@@ -117,7 +117,10 @@ public class BaseClass {
 	}
 public void collection() {
 	Collections.sort(null);
+<<<<<<< HEAD
 	Collections .sort(null, String.CASE_INSENSITIVE_ORDER);
+=======
+>>>>>>> 28983d9a3fc7b66d8a0bff74fd97d5916db076bf
 }
 	public void brokeLikn() {
 //	List<WebElement> allLinks = driver.findElements(By.tagName("a"));
