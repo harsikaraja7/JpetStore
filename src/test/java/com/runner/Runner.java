@@ -12,7 +12,7 @@ import com.reports.Reporting;
 import io.cucumber.junit.*;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(tags ="@1",dryRun = false,plugin= {"pretty", "json:target\\output.json"}, features = "src\\test\\resources", glue = "com.stepdefinitions")
+@CucumberOptions(tags ="@lo",dryRun = false,plugin= {"pretty", "json:target\\output.json"}, features = "src\\test\\resources", glue = "com.stepdefinitions")
 public class Runner extends BaseClass{
 @AfterClass
 public static void afterClass() throws FileNotFoundException, IOException {

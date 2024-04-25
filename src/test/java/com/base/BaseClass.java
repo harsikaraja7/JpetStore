@@ -1,5 +1,7 @@
 package com.base;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
@@ -113,7 +115,10 @@ public class BaseClass {
 	public void getUrl(String key) throws FileNotFoundException, IOException {
 		driver.get(key);
 	}
-
+public void collection() {
+	Collections.sort(null);
+	Collections .sort(null, String.CASE_INSENSITIVE_ORDER);
+}
 	public void brokeLikn() {
 //	List<WebElement> allLinks = driver.findElements(By.tagName("a"));
 //	int size = allLinks.size();
